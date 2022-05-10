@@ -77,3 +77,8 @@
   color: lightgray;
   cursor: pointer;
 }
+
+.date {
+  position: absolute;
+  
+}
