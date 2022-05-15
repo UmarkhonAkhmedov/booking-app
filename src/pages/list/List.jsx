@@ -1,4 +1,5 @@
 import React from 'react'
+import Featured from '../../components/featured/Featured'
 import Header from '../../components/header/Header'
 import Navbar from '../../components/navbar/Navbar'
 
@@ -7,7 +8,9 @@ function List() {
     <div>
       <Navbar />
       <Header type="list"/>
-      
+      <div className='homeContainer'>
+        <Featured />
+      </div>
 
     </div>
   )
