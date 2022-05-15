@@ -8,9 +8,6 @@ function List() {
     <div>
       <Navbar />
       <Header type="list"/>
-      <div className='homeContainer'>
-        <Featured />
-      </div>
 
     </div>
   )
