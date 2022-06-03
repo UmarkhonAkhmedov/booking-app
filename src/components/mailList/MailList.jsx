@@ -1,7 +1,7 @@
 import React from 'react'
 import "./mailList.css"
 
-function MailList() {
+const MailList = () => {
   return (
     <div className="mail">
       <h1 className="mailTitle">Save time, save money!</h1>
